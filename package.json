@@ -1,0 +1,28 @@
+/**
+ * User: Eric Ma
+ * Email: zjafei@gmail.com
+ * Date: 2015/2/27
+ * Time: 19:36
+ */
+{
+  "main": "project/index.html",
+  "name": "fisGuiTools",
+  "description": "demo app of node-webkit",
+  "version": "0.1.0",
+  "window": {
+    "debug": false,
+    "icon": "project/css/favicon.png",
+    "toolbar": false,
+    "width": 400,
+    "height": 250,
+    "resizable": false,
+    "position": "center",
+    "show": false,
+    "always-on-top": true,
+    "show_in_taskbar": false,
+    "frame": false
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

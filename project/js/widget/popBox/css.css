@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.popBoxV3Bg {
+    background: #000;
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.popBoxV3Box {
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    z-index: 1000;
+    box-shadow: 0 0 10px #555;
+    background: #fff;
+    font-family:arial, sans-serif;
+    color: #666;
+}
+.popBoxV3Box input[type="text"]{
+    font-size: 12px;
+    height: 22px;
+    padding: 10px 6px;
+    line-height: 1.2;
+}
+.popBoxV3Box label{
+    font-weight: normal;
+}
+.popBoxV3Box label,.popBoxV3Box .col-xs-12{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.popBoxV3Box .form-group-xs{
+    padding-top: 5px;
+    overflow: auto;
+}
+.popBoxV3Box .text-center{
+    padding-top: 10px;
+}
+.popBoxV3Head {
+    position: relative;
+    height: 25px;
+    border-bottom: 1px #ccc solid;
+}
+
+.popBoxV3Til {
+    float: left;
+    line-height: 25px;
+    font-weight: bold;
+    padding-left:8px ;
+}
+
+
+.popBoxV3Close {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url("close.png") no-repeat center;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.popBoxV3Body {
+    display: none;
+}
+
+.popBoxV3Body.cur {
+    display: block;
+	background:#fff;
+}

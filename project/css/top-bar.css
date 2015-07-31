@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Email: zjafei@gmail.com
+/* Date: 2015/3/2 */
+/* Time: 9:33 */
+.top-bar{
+    height: 35px;
+    background: #3c3c3c;
+    position: relative;
+}
+.top-bar-drag{
+    height: 35px;
+    margin-right: 70px;
+    -webkit-app-region:drag;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.top-bar-tools{
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    right: 0;
+    top: 0;
+}
+.top-bar-tools a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+.top-bar-tools a.top-bar-tool-mini{
+    background: url("mini.png") no-repeat center ;
+}
+.top-bar-tools a.top-bar-tool-mini:hover{
+    background-color: #5A6064;
+}
+.top-bar-tools a.top-bar-tool-close{
+    background: url("close.png") no-repeat center ;
+}
+.top-bar-tools a.top-bar-tool-close:hover{
+    background-color: #C73636
+}

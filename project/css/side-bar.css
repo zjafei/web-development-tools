@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Email: zjafei@gmail.com
+/* Date: 2015/3/2 */
+/* Time: 10:39 */
+.project{
+    background: url('project.png') no-repeat center;
+}
+
+.project-error{
+    background: url('project-error.png') no-repeat center;
+}
+
+.project-empty{
+    background: url('project-empty.png') no-repeat center;
+}
+
+.side-bar{
+    width: 215px;
+    height: 521px;
+    background: #E5F1F8;
+    overflow: hidden;
+}
+
+.side-bar-tools{
+    height: 56px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#3EB3EB), to(#1F94CA));
+}
+.side-bar-tools > a{
+    display: inline-block;
+    height: 56px;
+    width: 100%;
+}
+.side-bar-tools > a:hover{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#8B9BA3), to(#79868C));
+}
+.side-bar-tools > a > span{
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 14px auto;
+}
+.side-bar-tools > a.create-project span{
+    background: url("create-project.png") no-repeat center;
+}
+
+.project-list{
+    height: 465px;
+    overflow: auto;
+}
+
+.project-list > a{
+    height: 56px;
+    display: block;
+    position: relative;
+    text-decoration:none;
+}
+.project-list > a:hover{
+    background: #DAE8F1;
+}
+.project-list > a > i{
+    position:absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    left:10px;
+    top:16px;
+}
+.project-list > a > span{
+    position:absolute;
+    display: block;
+    width: 135px;
+    color:#666;
+    font-size: 15px;
+    left: 45px;
+    top:14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.project-list > a > small{
+    position:absolute;
+    display: block;
+    width: 135px;
+    color:#aaa;
+    font-size: 10px;
+    left: 45px;
+    top:32px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.project-list > a > em{
+    position:absolute;
+    display: none;
+    width: 24px;
+    height: 24px;
+    right: 5px;
+    top:16px;
+    background: url('more.png') no-repeat center;
+}
+
+.project-list > a.active{
+    background: #CEDEE9;
+}
+/*.project-list > a.active > em{*/
+    /*display: block;*/
+/*}*/
